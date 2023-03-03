@@ -1,6 +1,6 @@
 import React from "react";
 import { Parent } from "./components/pure-components/pure-components";
-
+import { Proxy } from "./concepts/proxy";
 export default function CandyDispenser() {
   const initialCandies = ["snickers", "skittles", "twix", "milky way"];
 
@@ -8,8 +8,9 @@ export default function CandyDispenser() {
 
   return (
     <div>
-      <h1>Candy Dispenser</h1>
-      <Parent />
+      <Proxy />
+      {/* <h1>Candy Dispenser</h1> */}
+      {/* <Parent /> */}
     </div>
   );
 }

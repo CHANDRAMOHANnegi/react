@@ -24,5 +24,5 @@ export function useSpecialState(state: State) {
         reRender((i) => i + 1);
       }
     },
-  ];
+  ] as const;
 }

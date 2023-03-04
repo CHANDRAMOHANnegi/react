@@ -11,8 +11,10 @@ const internalState: State = {
 export const Proxy = (props: any) => {
   const [state, setState] = useSpecialState(internalState);
 
+  console.log("rendering")
+
   useEffect(() => {
-    setState({ isCool: false });
+    setState({ isCool: true });
   }, []);
 
   return (

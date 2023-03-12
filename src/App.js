@@ -1,6 +1,6 @@
 import React from "react";
 import { Parent } from "./components/pure-components/pure-components";
-import HocPattern from "./concepts/useMemo-useCallback/react-design-patterns/react-hoc-pattern";
+import { HocPattern, CompoundComponentPattern, RenderPropPattern } from "./concepts/react-design-patterns";
 
 export default function CandyDispenser() {
   // const initialCandies = ["snickers", "skittles", "twix", "milky way"];
@@ -11,7 +11,9 @@ export default function CandyDispenser() {
     <div>
       <h1>React Concepts</h1>
       {/* <Parent /> */}
-      <HocPattern/>
+      {/* <HocPattern />
+      <RenderPropPattern /> */}
+      <CompoundComponentPattern />
     </div>
   );
 }

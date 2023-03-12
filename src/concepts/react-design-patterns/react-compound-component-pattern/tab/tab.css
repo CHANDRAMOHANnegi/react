@@ -1,0 +1,25 @@
+.heads {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.item.active {
+    background-color: brown;
+}
+
+.contentWraper {
+    background-color: grey;
+    margin: 0;
+    padding: 10px;
+}

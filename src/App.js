@@ -1,6 +1,7 @@
 import React from "react";
 import { Parent } from "./components/pure-components/pure-components";
 import { HocPattern, CompoundComponentPattern, RenderPropPattern } from "./concepts/react-design-patterns";
+import Counter from "./Counter";
 
 export default function CandyDispenser() {
   // const initialCandies = ["snickers", "skittles", "twix", "milky way"];
@@ -13,7 +14,8 @@ export default function CandyDispenser() {
       {/* <Parent /> */}
       {/* <HocPattern />
       <RenderPropPattern /> */}
-      <CompoundComponentPattern />
+      {/* <CompoundComponentPattern /> */}
+      <Counter />
     </div>
   );
 }
